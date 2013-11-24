@@ -3,6 +3,7 @@ import java.awt.FlowLayout;
 import javax.swing.JComboBox;
 import javax.swing.JPanel;
 public class CurrencyPanel extends JPanel {
+
     private static final String[] currencies = {"EUR", "USD", "CAD", "GBP"};
         public CurrencyPanel() {
         this.setLayout(new FlowLayout(FlowLayout.LEFT));
